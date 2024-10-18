@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@media (max-width:768px) {
+    body{font-size: 12px;}
+    div{width: 100%;}
+    h1, h2, h3, p{line-height: 15px;}
+}
+
+/* General properties: */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff2df; 
+    color: #674d3c;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/* Header & Footer: */
+header {
+    padding: 30px 30px;
+}
+
+footer {
+    width: 100%;
+    background-color: #674d3c;
+    color: #fff2df;
+    display: block;
+}
+
+/* Headings & Text: */
+h1, h2, h3 {
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.7em;
+    font-weight: 1000;
+    line-height: 45px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2, h3{
+    font-size: 2em;
+    line-height: 35px;
+    text-decoration: underline;
+}
+
+p, a {
+    font-size: 1.2em;
+    line-height: 40px;
+}
+
+footer p {padding: 15px 30px}
+
+/* Sections: */
+section {
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+/* Link: */
+a:link, a:visited {
+    box-sizing: border-box;
+    background-color: #674d3c;
+    color: #fff2df;
+    border-radius: 3px;
+    }
+a:hover {
+    background-color: #fff2df;
+    color: #674d3c;}
+
+
+/* div Container: */
+section div{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div img{
+    width: 33%;
+}
+
+/* Images General: */
+img{
+    box-sizing: border-box;
+    border: 1.5px solid #674d3c;
+}
+
+/* Gallery: */
+div img:hover{
+    border-color: #fff2df;
+    border-width: 5px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+/* Single Image Bottom: */
+[src="Images/Praia.jpg"] {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+[src="Images/Praia.jpg"]:hover{
+    width: 100%;
+    border-color: #fff2df;
+    transition-property: all;
+    transition-duration: 1.5s;
+}
